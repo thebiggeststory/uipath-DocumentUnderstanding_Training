@@ -549,6 +549,119 @@
           "RuleSet": null
         }
       ]
+    },
+    {
+      "DocumentTypeId": "Insurance-TrainingDU224.Reports.VehicleDamageReport",
+      "Group": "Insurance-TrainingDU224",
+      "Category": "Reports",
+      "Name": "VehicleDamageReport",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Insurance-TrainingDU224.Reports.VehicleDamageReport.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Insurance-TrainingDU224.Reports.VehicleDamageReport.registration-number",
+          "FieldName": "registration-number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "Insurance-TrainingDU224.Reports.VehicleDamageReport.inspector-name",
+          "FieldName": "inspector-name",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "Insurance-TrainingDU224.Reports.VehicleDamageReport.vehicle-license-number",
+          "FieldName": "vehicle-license-number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "Insurance-TrainingDU224.Reports.VehicleDamageReport.driving-license-number",
+          "FieldName": "driving-license-number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "g"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "Insurance-TrainingDU224.Reports.VehicleDamageReport.cost-of-damage",
+          "FieldName": "cost-of-damage",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#d1a3a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null
+        }
+      ]
     }
   ],
   "Groups": [
@@ -556,6 +669,12 @@
       "Name": "IRS-TraininDU224",
       "Categories": [
         "Forms"
+      ]
+    },
+    {
+      "Name": "Insurance-TrainingDU224",
+      "Categories": [
+        "Reports"
       ]
     }
   ],
